@@ -1,10 +1,10 @@
 /**
- * 
+ *
  */
 package sef.module3.activity;
 
 /**
- * @author 
+ * @author
  *
  */
 public class NumToWords {
@@ -13,15 +13,15 @@ public class NumToWords {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
 		for ( int i = 1; i < 11; i++ ) {
 			System.out.println ( "The value of i is:- " + i );
 		}
 
-		
-		
-				
-		int i = 2;
+
+
+
+		int i = 3;
 		String numText ;
 		switch(i) {
 		case 1:
@@ -38,6 +38,7 @@ public class NumToWords {
 			break;
 		case 5:
 			numText = "FIVE";
+			System.out.println(numText);
 			break;
 			// complete the code.
 		default:
@@ -48,6 +49,6 @@ public class NumToWords {
 
 
 	}
-	
+
 
 }
