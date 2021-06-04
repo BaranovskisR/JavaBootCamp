@@ -10,7 +10,7 @@ public class ListActivity {
 	public static void main(String[] args) {
 		//1 - Type code to create a list of names. Use ArrayList.
 		List list =  new ArrayList();
-		list.add("Anna");
+		list.add("Anna" );
 		list.add("John");
 		list.add("Catherine");
 		//2 - Call print method to print the list passed as its parameter.
@@ -19,7 +19,7 @@ public class ListActivity {
 
 	}
 	
-	void print(List list)
+	public void print(List list)
 	{
 		//3 - Type code to print this list
 		//Notice the order in which elements get printed.

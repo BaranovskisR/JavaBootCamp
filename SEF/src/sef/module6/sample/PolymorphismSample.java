@@ -27,8 +27,6 @@ public class PolymorphismSample {
 		s.announce();
 		System.out.println("-----------------------------");
 		ps.announce();
-		
-		
 					
 	}
 }
