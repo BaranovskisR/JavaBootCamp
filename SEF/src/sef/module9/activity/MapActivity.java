@@ -1,7 +1,10 @@
 package sef.module9.activity;
 //Needs to be completed
 
+import java.util.Date;
+import java.util.HashMap;
 import java.util.Map;
+
 
 
 public class MapActivity {
@@ -11,13 +14,19 @@ public class MapActivity {
 		public static void main(String[] args) {
 			//1 - Type code to create a HashMap of key value pair
 			//where key is id of type String and value is a name
-			
-			print(temp);
-			print1(10);
-			print2(temp);
-			print3(temp);
+			Map name = new HashMap();
+
+			name.put("A", "Rolands");
+			name.put("B", new Date());
+
+//			print(temp);
+//			print1(10);
+//			print2(temp);
+//			print3(temp);
 			//2 - Call print method to print the map passed as its parameter.
-		
+
+			System.out.println(name.get("A"));
+			System.out.println(name.get("B"));
 		}
 		
 		static void print(String test)
@@ -30,7 +39,7 @@ public class MapActivity {
 		static void print1(int a)
 		{
 			//int a = 10; 
-			for (int i = 0 ; i< a; i++) {
+			for (int i = 0 ; i < a; i++) {
 				
 				
 				

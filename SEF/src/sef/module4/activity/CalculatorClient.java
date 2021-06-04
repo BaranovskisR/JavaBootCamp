@@ -29,7 +29,7 @@ public class CalculatorClient {
 		System.out.println("2) Multiplication result is " + result);
 
 		//Divide
-		result = normalCalc.divide(10 , 5);
+		result = normalCalc.divide(100 , 5);
 		System.out.println("3) Divide result is " + result);
 
 		//Subtract

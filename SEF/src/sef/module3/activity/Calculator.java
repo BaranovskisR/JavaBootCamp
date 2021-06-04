@@ -62,7 +62,7 @@ public class Calculator {
 		if (x == 0 || y == 0) {
 			System.out.println("One of the number is 0, I can't do the divide operation");
 			divValue = 0;
-			return ;
+			return divValue;
 			// complete the code
 		} else {
 			divValue = x/y;

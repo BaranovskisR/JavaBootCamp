@@ -12,7 +12,7 @@ public class OperatorActivity {
 	public static void main(String[] args) {
 
 		// Declare numbers to be operated
-		int i = 28;
+		int i = 288;
 		int j = 5;
 		int result;
 

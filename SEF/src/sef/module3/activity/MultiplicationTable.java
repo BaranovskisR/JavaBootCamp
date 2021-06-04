@@ -16,9 +16,10 @@ public class MultiplicationTable {
 
 
 		int x = 1;
-		int y = 20;
+		int y = 25;
 		while ( x < y) {
 			System.out.println ( "The value of x is:=" + x++ );
+//			System.out.println ( "The value of y is:=" + y++ );
 		}
 
 
@@ -33,9 +34,9 @@ public class MultiplicationTable {
 		}
 
 //		// Table from 11 to 20
-        for (int i = 10; i <= 20; i++) {
+        for (int i = 10; i <= 25; i++) {
             System.out.println("*** Table of "+i + " ***");
-            for (int j = 10; j <= 20; j++) {
+            for (int j = 10; j <= 25; j++) {
                 System.out.println(i + "X" + j +" = " + i*j);
 		}
 		}

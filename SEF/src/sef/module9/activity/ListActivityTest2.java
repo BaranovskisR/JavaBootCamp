@@ -9,22 +9,23 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class ListActivityTest2 {
+    String temp = "test";
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		
-		
+
+
 	}
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
-		
-		
+
+
 	}
 
 	@Before
 	public void setUp() throws Exception {
-		String temp = "";
+
 	}
 
 	@After
@@ -33,7 +34,7 @@ public class ListActivityTest2 {
 
 	@Test
 	public void test() {
-		
+
 		System.out.println(temp);
 		fail("Not yet implemented");
 	}
@@ -47,6 +48,6 @@ public class ListActivityTest2 {
 		System.out.println(temp);
 		fail("Not yet implemented");
 	}
-	
+
 
 }

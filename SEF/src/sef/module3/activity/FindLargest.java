@@ -16,7 +16,7 @@ public class FindLargest {
 
 		// Find Largest of two numbers
 
-		int num1 = 1, num2 = 2;
+		int num1 = 5, num2 = 2;
 
 		if (num1 > num2) {
 			System.out.println(num1 + " is largest of two numbers");
@@ -26,7 +26,7 @@ public class FindLargest {
 
 		// Find Largest of three numbers
 
-		int i = 1, j = 2, k = 10;
+		int i = 1, j = 2, k = 101;
 
 		if (i > j) {
 			if (i > k)

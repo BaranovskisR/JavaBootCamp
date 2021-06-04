@@ -40,11 +40,14 @@ public class TryCatchFinallySample {
 			System.out.println(str.toUpperCase());
 			
 			System.out.println(temp1/temp2);
-		} catch (NullPointerException e) {
+		}
+		catch (NullPointerException e) {
 			System.out.println("A variable is not initialized");
-		}catch(ArithmeticException e) {
+		}
+		catch(ArithmeticException e) {
 			System.out.println("I can not perform division operation if divident is zero");
-		}finally {
+		}
+		finally {
 			System.out.println("Noth wrong has happend while executing the code ! ");
 		}
 	}
